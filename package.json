@@ -3,22 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.4.1"
+    "@tweenjs/tween.js": "^25.0.0",
+    "axios": "^1.6.0",
+    "globe.gl": "^2.29.3",
+    "maxmind": "^4.3.11",
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.159.0",
+    "three-globe": "^2.29.3",
+    "ws": "^8.14.2"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/three": "^0.159.0",
+    "@types/ws": "^8.5.8",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
